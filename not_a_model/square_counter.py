@@ -1,6 +1,6 @@
 import cv2
-from contours import find_contours
-from shape_detector import ShapeDetector
+from not_a_model.contours import find_contours
+from not_a_model.shape_detector import ShapeDetector
 
 def square_counter(image):
 
