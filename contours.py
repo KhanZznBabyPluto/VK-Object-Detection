@@ -1,6 +1,6 @@
 import cv2
 
-def make_contours(image_path):
+def find_contours(image_path):
     image = cv2.imread(image_path)
 
     shifted = cv2.pyrMeanShiftFiltering(image, 3, 90)
@@ -23,4 +23,4 @@ def make_contours(image_path):
     return contours
 
 # path = 'train_data/2.png'
-# make_contours(path)
+# find_contours(path)
