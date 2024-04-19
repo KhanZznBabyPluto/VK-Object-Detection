@@ -22,5 +22,5 @@ def make_contours(image_path):
 
     return contours
 
-path = 'train_data/2.png'
-make_contours(path)
+# path = 'train_data/2.png'
+# make_contours(path)
